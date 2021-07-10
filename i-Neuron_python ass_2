@@ -1,0 +1,173 @@
+ASSIGNMENT- 2
+
+QUESTION STATEMENT - 1
+What are the two values of the Boolean data type? How do you write them?
+
+SOLUTION STATEMENT - 1
+THE TWO VALUES OF BOOLEAN DATA TYPE ARE (TRUE) AND (FALSE)
+
+
+QUESTION STATEMENT - 2
+What are the three different types of Boolean operators?
+
+SOLUTION STATEMENT - 2
+THREE DIFFERENT TYPE OF BOOLEAN OPERATOR ARE 
+1) AND (&&)
+2) OR (||)
+3) NOT (!)
+
+
+QUESTION STATEMENT - 3
+Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean
+values for the operator and what it evaluate ).
+
+SOLUTION STATEMENT - 3
+AND OPERATOR 
+
+TRUE  TRUE  TRUE
+FALSE FALSE FALSE
+FALSE TRUE  FALSE
+TRUE  FALSE FASLE
+
+OR OPERATOR
+
+TRUE  TRUE  TRUE
+TRUE  FALSE TRUE
+FALSE TRUE  TRUE 
+FALSE FALSE FALSE
+
+NOT OPERATOR
+
+TRUE  TRUE  FALSE
+TRUE  FALSE FALSE
+FALSE TRUE  TRUE
+FALSE FALSE TRUE 
+
+
+
+QUESTION STATEMENT - 4
+What are the values of the following expressions?
+(5 > 4) and (3 == 5)
+not (5 > 4)
+(5 > 4) or (3 == 5)
+not ((5 > 4) or (3 == 5))
+(True and True) and (True == False)
+(not False) or (not True)
+
+SOLUTION STATEMENT - 4
+VALUE 1: FALSE
+VALUE 2: FALSE
+VALUE 3: TRUE
+VALUE 4: FALSE
+VALUE 5: FALSE
+VALUE 6: TRUE3
+
+
+QUESTION STATEMENT - 5
+What are the six comparison operators?
+
+SOLUTION STATEMENT - 5
+(==) FOR COMPARISON MEANS EQUAL TO
+(!==) MEANS NOT EQUAL TO 
+(>) MEANS GREATER THAN
+(<) MEANS LESS THAN
+(>=) MEANS GREATER THAM EQUAL TO 
+(<=) MEANS LESS THAN EQUAL TO
+
+
+QUESTION STATEMENT - 6
+How do you tell the difference between the equal to and assignment operators?Describe a
+condition and when you would use one.
+
+SOLUTION STATEMENT - 6
+SUPPOSE IF WE WANT TO ASSIGN ANY VALUE TO OUR VARIABLE WE WILL USE ASSIGNMENT OPERATOR (=) 
+EXAMPLE : NAME = "SAHIL"
+AND WE WANT TO VALIDATE OR CHECK OUR CONDITION WE WILL USE EQUAL TO OPERATOR (==)
+EXAMPLE: NAME = "SAHIL" ; FIRST_NAME == NAME ; PRINT (" FIRST NAME AND NAME BOTH ARE SAME")
+
+
+QUESTION STATEMENT - 7
+Identify the three blocks in this code:
+spam = 0
+if spam == 10:
+print('EGGS')
+if spam > 5:
+print('BACON')
+else:
+print('HAM')
+print(print('SPAM')
+print(print('SPAM')
+
+SOLUTION STATEMENT - 7
+THERE ARE THREE BLOCKS IN THIS CODE IF-IF-ELSE.
+AS PER GIVEN CONDITION FIRST TWO IF BLOCKS REMAINS UNSATISFIED/FALSE SO THE CONTROL DIRECLTY GOES TO ELSE BLOCK AND OVER THERE IT WILL PRINT 
+THREE STATEMENTS 'HAM' 'SPAM' 'SPAM'
+
+
+
+QUESTION STATEMENT - 8
+Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints
+Greetings! if anything else is stored in spam.
+
+SOLUTION STATEMENT - 8
+SPAM = int(input("ENTER A NUMBER: "))
+if SPAM ==1:
+   print("HELLO")
+elif SPAM ==2:
+   print ("HOWDY")
+else:
+    print("GREETINGS!")
+
+
+QUESTION STATEMENT - 9
+If your programme is stuck in an endless loop, what keys you’ll press?
+
+SOLUTION STATEMENT - 9
+CTRL + C
+
+
+QUESTION STATEMENT - 10
+How can you tell the difference between break and continue?
+
+SOLUTION STATEMENT - 10
+THE BASIC DIFFERENCE BETWEEN BREAK AND CONTIONUE IS WHEN WE USE BREAK KEYWORD INSIDE A LOOP AND IF THE CONDITION GETS SATISFIED THEN THE LOOP WILL NOT ITERATE TILL LAST ONCE CONDITION GETS SATISFIED THEN CONTROL WILL BE TRANSFERED OUTSIDE OF LOOP .
+BUT WHEN WE USE CONTINUE KEYWORD IF THE CONDITION GETS SATISFIED THE LOOP WILL CONTINUE TO ITERATE TILL LAST. CONTINUE IS USED WHEN WE NEED SOME VARIABLE IMPLICITLY BUT WE DONT WANT TO APPLY ANY EXPRESSION ON IT.
+
+
+QUESTION STATEMENT - 11
+In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+
+SOLUTION STATEMENT - 11
+WHEN WE WRITE range(10) WE WILL ITERATE TILL (N-1) INDEX THAT MEANS WE WILL ITERATE FROM 0-9 EXCLUDING 10.
+WHEN WE WRITE range (0,10) WE WILL ITERATE FROM 0-9 EXCLUDING 10 SAME AS WE DID ABOVE HERE OLY DIFFERENCE IS THAT WE ARE SPECIFYING THE STARTING POINT AND ENDING POINT 
+WHEN WE WRITE range(0,10,1) WE ARE ITERATING FROM 0-9 EXCLUDING 10. OBVIOUSLY RESULT WILL BE SAME BUT HERE WE MENTIONED STARTING POINT
+ENDING POINT AND ALSO THE STEP SIZE THAT IS (1) IN OUR CASE.
+
+
+
+QUESTION STATEMENT - 12
+Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent
+program that prints the numbers 1 to 10 using a while loop.
+
+SOLUTION STATEMENT - 12
+FOR LOOP 
+
+a = 11
+for i in range (1,11):
+    print (i)
+
+WHILE LOOP
+
+a = 11
+i=1
+while i<=a:
+    print (i)
+    i=i+1
+
+
+QUESTION STATEMENT - 13
+If you had a function named bacon() inside a module named spam, how would you call it after
+importing spam?
+
+SOLUTION STATEMENT - 13
+JUST BY WRITING NAME OF THE FUNCTION CALL BY NAME "bacon".
