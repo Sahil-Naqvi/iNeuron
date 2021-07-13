@@ -1,0 +1,127 @@
+ASSIGNMENT- 3
+
+QUESTION STATEMENT - 1
+What exactly is []?
+
+SOLUTION STATEMENT - 1
+[] DENOTES LIST IN PYTHON. LIST IS HELPFUL FOR STORING DATA OF DIFFERENT DATA TYPES. VALUES STORED IN LIST CAN BE ACCESSED BY USING SLICE OPERATOR. WITH INDEDX STARTNG FROM 0 TILL -1. IN LIST CONCATENATION OPERATOR IS (+) AND FOR REPETATION (*) IS USED.
+
+
+
+QUESTION STATEMENT - 2
+In a list of values stored in a variable called spam, how would you assign the value 'hello' as the
+third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+
+
+SOLUTION STATEMENT - 2
+SPAM = [2,4,6,8,10]
+SPAM[2]='hello'
+SPAM
+
+
+
+QUESTION STATEMENT - 3
+What is the value of spam[int(int('3' * 2) / 11)]?
+
+SOLUTION STATEMENT - 3
+[3]
+
+
+
+QUESTION STATEMENT - 4
+What is the value of spam[-1]?
+
+
+SOLUTION STATEMENT - 4
+'d'
+
+
+QUESTION STATEMENT - 5
+What is the value of spam[:2]?
+
+
+SOLUTION STATEMENT - 5
+['a', 'b']
+
+
+
+QUESTION STATEMENT - 6
+What is the value of bacon.index('cat')?
+
+
+SOLUTION STATEMENT - 6
+1
+
+QUESTION STATEMENT - 7
+How does bacon.append(99) change the look of the list value in bacon?
+
+SOLUTION STATEMENT - 7
+[3.14, 'cat', 11, 'cat', True, 99]
+
+QUESTION STATEMENT - 8
+How does bacon.remove('cat') change the look of the list in bacon?
+
+SOLUTION STATEMENT - 8
+[3.14, 11, 'cat', True]
+
+
+QUESTION STATEMENT - 9
+What are the list concatenation and list replication operators?
+
+SOLUTION STATEMENT - 9
+IN LIST CONCATENATION OPERATOR IS (+) AND FOR REPETATION (*) IS USED.
+
+
+QUESTION STATEMENT - 10
+What is difference between the list methods append() and insert()?
+
+
+SOLUTION STATEMENT - 10
+THE ONLY DIFFERENCE BETWEEN APPEND AND INSERT IS THAT INSERT ALLOWS US TO ADD ELEMENT ON THAT PARTICULAR INDX WE WANT TO ADD BUT IN APPEND WE CAN ONLY ADD NEW ELEMENT AT THE END OF THE LIST.
+
+QUESTION STATEMENT - 11
+What are the two methods for removing items from a list?
+
+SOLUTION STATEMENT - 11
+WE CAN USE REMOVE() AND POP() FOR REMOVING ITEMS FROM LIST.
+
+
+QUESTION STATEMENT - 12
+Describe how list values and string values are identical.
+
+SOLUTION STATEMENT - 12
+SIMPLEST METHOD TO CHECK THAT STRING VALUES AND LIST VALUES ARE IDENTICAL IS THAT START A LOOP AND CHECK FOR EVERY ELEMENT IN THAT LIST AND SIMULTANEOUSLY INCREASE THE COUNT BY 1.
+
+
+QUESTION STATEMENT - 13
+What Is the difference between tuples and lists?
+
+
+SOLUTION STATEMENT - 13
+LIST ARE MUTABLE AND WORK AS READ AND WRITE FILE ALSO. BUT IN CASE OF TUPLE THEY ARE IMMUTABLE AND WORK AS READ ONLY FILE .
+
+QUESTION STATEMENT - 14
+How do you type a tuple value that only contains the integer 42?
+
+SOLUTION STATEMENT - 14
+(42,)
+
+
+QUESTION STATEMENT - 15
+How do you get a list value's tuple form? How do you get a tuple value's list form?
+
+SOLUTION STATEMENT - 14
+FIRST CREATE ANY LIST AND AFTER CREATING WRITE "tuple(list_name)" THIS STATEMENT WILL CONVERT LIST INTO TUPLE. similarly for converting tuple into list first create any tuple then write "list(tuple_name)" and your tuple will be converted into list.
+
+QUESTION STATEMENT - 16
+Variables that "contain" list values are not necessarily lists themselves. Instead, what do they contain?
+
+SOLUTION STATEMENT - 16
+VARIABLE THAT CONTAIN LIST VALUE MAY CONTAIN DIFFERENT DATA TYPES LIKE STRING AND INTEGER OR IT MAY BE FLOATING POINT NUMBER.
+
+QUESTION STATEMENT - 17
+How do you distinguish between copy.copy() and copy.deepcopy()?
+
+SOLUTION STATEMENT - 17
+THE ONLY DIFFERENCE BETWEEN TWO IS THAT COPY PERFORMS SHALLOW COPY WHILE ON THE OTHER HAND DEEPCOPY PERFORMS DEEP COPYING.
+
