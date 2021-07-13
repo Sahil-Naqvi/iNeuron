@@ -1,0 +1,45 @@
+ASSIGNMENT- 8
+
+QUESTION STATEMENT - 1
+Is the Python Standard Library included with PyInputPlus?
+
+SOLUTION STATEMENT - 1
+NO, PYINPUTPLUS IS A THIRD PARTY MODULE IT DOESNOT COME WITH PYTHON STANDARD LIBRARY.
+
+QUESTION STATEMENT - 2
+Why is PyInputPlus commonly imported with import pyinputplus as pypi?
+
+SOLUTION STATEMENT - 2
+IT IS IMPORTED AS pypi BECAUSE EACH AND EVERY TIME IF WE WANT TO CALL PyInputPlus WE HAVE TO TYPE PyInputPlus SO FOR SAVING TIME WE IMPORT PyInputPlus AS pypi>
+
+QUESTION STATEMENT - 3
+How do you distinguish between inputInt() and inputFloat()?
+
+SOLUTION STATEMENT - 3
+input(int()) IS USED FOR CONVERTING DATA TYPE OF VARIABLE OR IN SIMPLE WORDS WHEN WE NEED TO ACCESS INTEGER VALUE ONLY WE USE THIS STATEMENT IT DOES NOT MATTER IF FLOATING POINT NUMBER IS WRITTEN INSIDE IT OUTPUT WILL BE INTEGER ONLY. SIMILARLY FOR input(float()) IT IS USED WHEN WE NEED OUR OUTPUT AS A FLOATING POINT NUMBER.
+
+QUESTION STATEMENT - 4
+Using PyInputPlus, how do you ensure that the user enters a whole number between 0 and 99?
+
+SOLUTION STATEMENT - 4
+SIMPLY BY USING pypi.inputint(min=0,max=99)
+
+QUESTION STATEMENT - 5
+What is transferred to the keyword arguments allowRegexes and blockRegexes?
+
+SOLUTION STATEMENT - 5
+IN PyInputPlus FUCTION allowRegrex and blockRegrex IS USED TO CHECK WHEATHER PYINPUTPLUS FUNCTION WILL ACCEPT OR REJECT A VALID INPUT FROM USER.
+
+QUESTION STATEMENT - 6
+If a blank input is entered three times, what does inputStr(limit=3) do?
+
+SOLUTION STATEMENT - 6
+A TIMEOUT EXCEPTION IS BEING RAISED AND I WILL SHOW " RetryLimitException "
+
+QUESTION STATEMENT - 7
+If blank input is entered three times, what does inputStr(limit=3, default='hello') do?
+
+SOLUTION STATEMENT - 7
+A TIMEOUT EXCEPTION IS BEING RAISED AND I WILL SHOW " RetryLimitException " BUT IT WILL PRINT 'hello' AS DEFAULT STRING.
+
+    
