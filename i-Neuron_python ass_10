@@ -1,0 +1,44 @@
+ASSIGNMENT- 10
+
+QUESTION STATEMENT - 1
+How do you distinguish between shutil.copy() and shutil.copytree()?
+
+SOLUTION STATEMENT - 1
+shutil.copy() METHOD IN PYTHON HELPS IN COPYING THE CONTENT OF SOURCE FILE TO DESTINATION FILE. WITHOUT CHANGING FILE PERMISSION OPTION  BUT IT DO MUTATE OTHER THINGS LIKE FILE CREATION AND MODIFICATION DATE ETC. 
+WHILE ON THE OTHER HAND shutil.copytree() METHOD RECURSIVELY COPIES THE ENTIRE DIRECTORY TREE ROOT AT SPOURCE TO THE DESTINATION DIRECTORY. THE DIRECTORY NAMED BY (dst) MAY NOT ALREADY EXIST. THIS WILL BE CREATED DURING COPYING PERMISSION OPTION AND CREATED DATE ETC ARE MUTATE.
+
+QUESTION STATEMENT - 2
+What function is used to rename files?
+
+SOLUTION STATEMENT - 2
+IN PYTHON os.rename() METHOD ALLOWS US TO RENAME FILE
+
+QUESTION STATEMENT - 3
+What is the difference between the delete functions in the send2trash and shutil modules?
+
+SOLUTION STATEMENT - 3
+IN PYTHON send2trash METHOD WILL MOVE A FILE OR A FOLDER TO RECYCLE BIN. WHILE ON THE OTHER HAND shutil MODULE WILL PERMANENTLY DELETE FILES AND FOLDERS
+
+QUESTION STATEMENT - 4
+ZipFile objects have a close() method just like File objects’ close() method. What ZipFile method is
+equivalent to File objects’ open() method?
+
+SOLUTION STATEMENT - 4
+IN PYTHON THE zipfile.ZipFile() FUNCTION RESEMBLES TO open() FUNCTION. IN THIS THE FIRST ARGUEMENT IS FILE NAME AND SECOND ARGUEMENT IS MODE TO OPEN ZIP FILE IT MAY BE READ, WRITE OR APPEND.
+
+QUESTION STATEMENT - 5
+Create a programme that searches a folder tree for files with a certain file extension (such as .pdf
+or .jpg). Copy these files from whatever location they are in to a new folder.
+
+SOLUTION STATEMENT - 5
+import os
+import shutil
+
+def MovingFiles(folder):
+    for folderName, subfolders, filenames in os.walk(folder):
+        for subfolder in subfolders:
+            for filename in filenames:
+                if filename.endswith('.jpg','.pdf'):
+                    shutil.copy(folder + filename, '<destination>')
+
+MovingFiles('<source>')
