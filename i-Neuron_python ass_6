@@ -1,0 +1,80 @@
+ASSIGNMENT- 6
+
+QUESTION STATEMENT - 1
+What are escape characters, and how do you use them?
+
+SOLUTION STATEMENT - 1
+ESCAPE CHARACTERS ARE THOSE CHARACTERS WHICH WE CANT ADD INTO A STRING SO WE USE A (\) BACKSLASH FOLLOWED BY THE CHARACTER WE WANT TO ADD INTO OUR STRING
+
+QUESTION STATEMENT - 2
+What do the escape characters n and t stand for?
+
+SOLUTION STATEMENT - 2
+IN PYTHON (\) IS A ESCAPE CHARACTER AND \n STANDS FOR NEW LINE \t IS USED FOR TAB.
+
+QUESTION STATEMENT - 3
+What is the way to include backslash characters in a string?
+
+SOLUTION STATEMENT - 3
+WE HAVE TO USE TWO BACK SLASHES SIMULTANEOUSLY OF WE NEED TO INCLUDE @ BEFORE BACK SLASH.
+
+QUESTION STATEMENT - 4
+The string "Howl's Moving Castle" is a correct value. Why isn't the single quote character in the
+word Howl's not escaped a problem?
+
+SOLUTION STATEMENT - 4
+BRCAUSE IT IS WRITTEN AS STRING VALUE INSIDE DOUBLE QUOTES SO ANYHING INSIDE DOUBLE QUOTES WILL BE TREATED AS STRING VALUE WHEATHER IT MAY BE AN INTEGER OR FLOATING POINT NUMBER.
+
+QUESTION STATEMENT - 5
+How do you write a string of newlines if you don't want to use the n character?
+
+SOLUTION STATEMENT - 5
+WE CAN USE THREE SINGLE QUOTES SO THAT WE CAN EASILY WRITE STRINGS IN AS MANY NEW LINES AS WE WANT BUT REMEMBER ONE THING START BY THREE SINGLE QUOTES AND ALSO END BY THREE SINGLE QUOTES.
+
+QUESTION STATEMENT - 6
+What are the values of the given expressions?
+'Hello, world!'[1]
+'Hello, world!'[0:5]
+'Hello, world!'[:5]
+'Hello, world!'[3:]
+
+SOLUTION STATEMENT - 6
+'e'
+'Hello'
+'Hello'
+'lo, world!'
+
+QUESTION STATEMENT - 7
+What are the values of the following expressions?
+'Hello'.upper()
+'Hello'.upper().isupper()
+'Hello'.upper().lower()
+
+SOLUTION STATEMENT - 7
+'HELLO'
+True
+'hello'
+
+QUESTION STATEMENT - 8
+What are the methods for right-justifying, left-justifying, and centering a string?
+
+
+What are the values of the following expressions?
+'Remember, remember, the fifth of July.'.split()
+'-'.join('There can only one.'.split())
+
+SOLUTION STATEMENT - 8
+'There-can-only-one.'
+
+QUESTION STATEMENT - 9
+What are the methods for right-justifying, left-justifying, and centering a string?
+
+SOLUTION STATEMENT - 9
+FOR LEFT JUSTIFYING USE ljust(), FOR RIGHT JUSTIFYING USE rjust(), AND FOR CENTERING A STRING USE center().
+
+QUESTION STATEMENT - 10
+What is the best way to remove whitespace characters from the start or end?
+
+SOLUTION STATEMENT - 10
+FOR REMOVING WHITE SPACES FROM THE START OR END WE CAN USE strip(). FOR REMOVING WHITESPACES FROM BEGINING USE "lstrip" AND FOR REMOVING WHITESPACES FROM END USE "rstrip".
+
